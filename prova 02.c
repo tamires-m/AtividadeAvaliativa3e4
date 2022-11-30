@@ -28,7 +28,7 @@ void bubblesort(int* vetor, int n) {
 // O laço for passará os valores dados para serem ordenados em ordem crescente.
 
 int main() {
-	int vet[tamanho] = {5,2,7,8,10,6,1,4,9,3};
+	int vet[tamanho] = {20,11,22,14,77,2,10,5,4,7};
 	int i;
 	bubblesort(vet,tamanho);
 	for (i = 0; i < tamanho; i++) {
